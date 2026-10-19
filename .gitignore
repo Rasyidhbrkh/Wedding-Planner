@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+vendor/
+
+# Build and Binary Outputs
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+*.exe
+*.dll
+*.so
+*.dylib
+backend/*.exe
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/*.db
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
